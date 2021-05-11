@@ -14,7 +14,7 @@ class Ball{
         this.width = diameter.heigth;
         this.height = diameter.width;
 
-        this.img = loadImage("/src/assets/sprites/ball.png");
+        this.img = loadImage("src/assets/sprites/ball.png");
         
         if(Math.floor(Math.random() *2)==1)this.speedx =5;
         else 
