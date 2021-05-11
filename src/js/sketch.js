@@ -10,7 +10,7 @@ function preload() {
   }
 
 function setup(){
-    bg = loadImage("src/assets/sprites/board.png");
+    bg = loadImage("src/assets/sprites/board1.png");
     pts = new Points(
         PointsFactory.coords(board.width / 2, 70),
         pointSoundFile
