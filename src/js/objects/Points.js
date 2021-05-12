@@ -14,8 +14,7 @@ class Points {
       fill("#ffffff");
       textSize(35);
       textAlign(CENTER);
-      text(`${this.p1} - ${this.p2}`, this.x, this.y);
-      text("Player 1: W, S");
+      text(`Player 1: W , S     ${this.p1} - ${this.p2}     Player2: Flechas`, this.x, this.y);
     }
   
     sumPoints1(){
